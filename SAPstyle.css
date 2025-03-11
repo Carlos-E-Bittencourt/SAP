@@ -16,6 +16,12 @@ img{
 .imgbutton{
     width: 12px;
 }
+.forms{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
 .espaco{
     background-color: rgb(185, 183, 183);
     width: 10px;
@@ -54,4 +60,25 @@ img{
     text-align: left;
     background-color: #b9b9b9;
     color: white;
+}
+
+
+
+form,
+label {
+  display: block;
+  padding: 5px;
+}
+form {
+  width: 100%;
+  margin: 10px;
+  background-color: white;
+}
+label {
+  color: black;
+  text-align: right;
+}
+input {
+  display: inline-block;
+  padding-left: 10px;
 }
