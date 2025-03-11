@@ -16,6 +16,15 @@ img{
 .imgbutton{
     width: 12px;
 }
+.espaco{
+    background-color: rgb(185, 183, 183);
+    width: 10px;
+    height: 100%;
+}
+#linha {
+    width: 100%;
+    border-bottom: 2px solid lightblue;
+  }
 
 .flex{
     display: flex;
