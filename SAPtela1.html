@@ -8,28 +8,45 @@
     <title>SAP Tela 1</title>
 </head>
 <body>
-
-    <div>
-        <div id="navbar">
-            <div>
-                <h1>Component Customizing /SCMTMS/WDCC_FWD_ORDER, Main "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</h1>
+    <header>
+        <div>
+            <div id="navbar">
+                <div>
+                    <h1>Component Customizing /SCMTMS/WDCC_FWD_ORDER, Main "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</h1>
+                </div>
+                <img src="IMG/AMARELO.PNG" alt="">
+                <div class="buttons">
+                    <button>💾Save</button>
+                    <button>❌Cancel</button>
+                    <button>✏️Edit</button>
+                    <button>💾Save Draft</button>
+                    <button>Load Draft</button>
+                    <button>🔃</button>
+                    <button>↩Undo</button>
+                    <button>↪Redo</button>
+                    <button>Check</button>
+                    <button><img class="imgbutton" src="IMG/SLA1.PNG" alt=""></button>
+                    <button><img class="imgbutton" src="IMG/SLA2.PNG" alt=""></button>
+                    <button><img class="imgbutton" src="IMG/SLA3.PNG" alt=""></button>
+                    <!--Como redimencionar o tamanho das imgens?-->
+                    <button>Additional Functions</button>
+                </div>
             </div>
-            <img src="IMG/AMARELO.PNG" alt="">
-
-        </div>
+    </header>
+    <body>
         <div class="flex">
             <div>
                 <div class="flex">
                     <h2>Navigation</h2>
                     <h4>Repositories</h4>
                 </div>
-                <div id="buttons">
+                <div class="buttons">
                     <button>New</button>
                     <button>Trash</button>
                     <button>Copy</button>
                     <button>Up</button>
                     <button>Down</button>
-                    <button>Fix</button>
+                    <button><img class="imgbutton" src="IMG/REPARAR.PNG" alt=""></button>
                 </div>
                 <table id="navigation">
                     <tr>
@@ -113,10 +130,82 @@
                 </table>
             </div>
             <div>
+                <div class="flex">
+                    <h2> Overview Page Schema</h2>
+                    <h4>Toolbar</h4>
+                    <h4>Wire Schema</h4>
+                </div>
+                <div class="buttons">
+                    <button>Page Master Area</button>
+                    <button>Section</button>
+                    <button>UIBB</button>
+                    <button>Trash</button>
+                    <button>Up</button>
+                    <button>Down</button>
+                    <button>Configure UIBB</button>
+                    <button><img class="imgbutton" src="IMG/REPARAR.PNG" alt=""></button>
+                </div>
+                <div>
+                    <table id="navigation" style="margin-right: 100%;">
+                        <tr>
+                            <th></th>
+                            <th>Element</th>
+                            <th>Component</th>
+                            <th>Config ID</th>
+                            <th>Window Name</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Section: SECTION_1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                            <td>FPM_FORM_UIBB_GL2</td>
+                            <td>/SCMTMS/WDCC_FWO_GEN</td>
+                            <td>FORM_WINDOW</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                            <td>FPM_FORM_UIBB_GL2</td>
+                            <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                            <td>FORM_WINDOW</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                            <td>FPM_TABBED_UIBB</td>
+                            <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                            <td>TABBED_WINDOW</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                            <td>FPM_TREE_UIBB</td>
+                            <td>/SCMTMS/WDCC_DOC_FLOW</td>
+                            <td>TREE_WINDOW</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>UIBB: $OTR:/SCMTMS/UI_...</td>
+                            <td>FPM_TABBED_UIBB</td>
+                            <td>/SCMTMS/WDCC_TCM_CHARGES_TA</td>
+                            <td>TABBED_WINDOW</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>
 
             </div>
         </div>
     </div>
+    </body>
+
     
 </body>
 </html>

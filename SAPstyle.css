@@ -5,7 +5,7 @@ body{
     border: 0;
 }
 #navbar{
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(206, 205, 205);
 }
 #amarela{
     background-color: yellow;
@@ -13,11 +13,14 @@ body{
 img{
     width: 100%;
 }
+.imgbutton{
+    width: 12px;
+}
 
 .flex{
     display: flex;
 }
-#buttons{
+.buttons{
     background-color: rgb(167, 167, 167);
 }
 
@@ -40,6 +43,6 @@ img{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #a5a5a5;
+    background-color: #b9b9b9;
     color: white;
 }
