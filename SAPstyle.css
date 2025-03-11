@@ -1,10 +1,24 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
-
+#navbar{
+    background-color: rgb(187, 187, 187);
+}
+#amarela{
+    background-color: yellow;
+}
+img{
+    width: 100%;
+}
 
 .flex{
     display: flex;
+}
+#buttons{
+    background-color: rgb(167, 167, 167);
 }
 
 #navigation {
